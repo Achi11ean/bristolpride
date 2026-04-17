@@ -234,7 +234,7 @@ useEffect(() => {
       "
     >
       The Bristol Pride, strengthens and sustains
-      Michigan's LGBTQ+ community through direct services, advocacy,
+      Bristol's LGBTQ+ community through direct services, advocacy,
       and statewide collaboration. We provide housing navigation and
       stabilization support to help individuals secure and maintain safe,
       affirming homes and resources to support and uplift the community. Our team connects community members to culturally
