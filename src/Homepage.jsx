@@ -41,8 +41,8 @@ export default function HomePage() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              src="/Logo1.png"
-              alt="South Haven LGBTQ+ Advocacy Logo"
+              src="/bristolpride.png"
+              alt="Bristol Pride Logo"
               className="w-full max-w-md sm:max-w-lg border-2 border-white shadow-2xl border border-"
             />
 <hr className="rainbow-hr" />
@@ -54,11 +54,11 @@ export default function HomePage() {
               className="max-w-3xl"
             >
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight">
-                South Haven LGBTQ+ Advocacy
+                Bristol Pride
               </h1>
               <p className="mt-4 text-lg sm:text-xl text-yellow-100/90 font-semibold">
                 Supporting & promoting LGBTQIA+ safe spaces, resources, and
-                community connection in and around South Haven, MI
+                community connection in and around Bristol, CT
               </p>
 
                   <Link
@@ -67,7 +67,7 @@ export default function HomePage() {
                   bg-gradient-to-r from-[#a21f1f] via-[#3fb541] to-[#a01fba]
                   hover:brightness-110 transition-all duration-300 neon-pulse"
               >
-                South Haven Pride 2026
+                Bristol Pride 2026
               </Link>
               {/* CTAs */}
               <nav aria-label="Primary">
@@ -297,7 +297,7 @@ export default function HomePage() {
             {/* Org */}
             <div>
               <h3 className="text-xl font-extrabold text-yellow-300">
-                South Haven LGBTQ+ Advocacy 🌈
+                Bristol Pride 🌈
               </h3>
               <p className="mt-2 text-yellow-100/80 font-semibold">
                 Empowering the LGBTQ+ community through support, creativity, and
@@ -311,7 +311,7 @@ export default function HomePage() {
     rel="noopener noreferrer"
     className="underline hover:text-yellow-200 transition"
   >
-    510 Williams Street, South Haven, Michigan
+    510 Williams Street, Bristol, Connecticut
   </a>
 </p>
             </div>
@@ -387,10 +387,10 @@ export default function HomePage() {
 <p className="mt-3 text-sm font-semibold">
   📧{" "}
   <a
-    href="mailto:southhavenpride@gmail.com"
+    href="mailto:bristolpride@gmail.com"
     className="underline hover:text-yellow-300"
   >
-    southhavenpride@gmail.com
+    bristolpride@gmail.com
   </a>
 </p>
 
@@ -405,7 +405,7 @@ export default function HomePage() {
 </p>
               <div className="mt-6 flex items-center gap-4 border-t border-yellow-400/30 pt-4">
                 <a
-                  href="https://www.facebook.com/SouthHavenLGBTQAdvocacy"
+                  href="https://www.facebook.com/bristolctprideofficial/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-yellow-300"
@@ -414,7 +414,7 @@ export default function HomePage() {
                   <FaFacebook className="text-2xl" />
                 </a>
                 <a
-                  href="mailto:blanca@lgbtqadvocacy.org"
+                  href="mailto:bristolpride@gmail.com"
                   className="hover:text-yellow-300"
                   aria-label="Email"
                 >
@@ -425,7 +425,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-10 text-center text-xs text-white/50 font-semibold">
-            © {year} South haven LGBTQ+ Pride Center — All Rights Reserved.{" "}
+            © {year} Bristol LGBTQ+ Pride Center — All Rights Reserved.{" "}
             <Link to="/privacy" className="hover:text-yellow-300 underline">
               Privacy Policy
             </Link>
