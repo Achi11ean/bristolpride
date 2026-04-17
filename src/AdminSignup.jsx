@@ -43,7 +43,7 @@ export default function AdminSignup() {
 const [successData, setSuccessData] = useState(null);
 
 const [form, setForm] = useState({
-pride_id: 1,
+pride_id: 4,
   name: "",
   email: "",
   username: "",
@@ -146,7 +146,7 @@ const handleSubmit = async (e) => {
 
   try {
    const res = await axios.post(
-`${API}/api/pride/1/admins`,
+`${API}/api/pride/4/admins`,
   {
     name: form.name,
     email: form.email,

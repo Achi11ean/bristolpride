@@ -286,7 +286,7 @@ export default function HomePage() {
             </div>
           </motion.div>
         </section>
-        <EmailSubscribe prideId={1} />
+        <EmailSubscribe prideId={4} />
       </main>
       <hr className="rainbow-hr" />
 
@@ -303,7 +303,7 @@ export default function HomePage() {
                 Empowering the LGBTQ+ community through support, creativity, and
                 compassion.
               </p>
-      <p className="mt-3 text-sm text-yellow-100/70 font-semibold">
+      {/* <p className="mt-3 text-sm text-yellow-100/70 font-semibold">
   📍{" "}
   <a
     href="https://www.google.com/maps/search/?api=1&query=510+Williams+Street+South+Haven+Michigan"
@@ -313,7 +313,7 @@ export default function HomePage() {
   >
     510 Williams Street, Bristol, Connecticut
   </a>
-</p>
+</p> */}
             </div>
 
             {/* Links */}

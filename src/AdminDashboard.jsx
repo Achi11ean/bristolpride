@@ -338,11 +338,11 @@ const [sponsorSubTab, setSponsorSubTab] = useState("add_prospect");
 
     {/* Sub Tab Content */}
     {newsletterSubTab === "subscribers" && (
-      <ManageSubscribers prideId={1} />
+      <ManageSubscribers prideId={4} />
     )}
 
     {newsletterSubTab === "create" && (
-<CreateNewsletters prideId={1} />
+<CreateNewsletters prideId={4} />
     )}
     {newsletterSubTab === "past" && (
 <PastNewsletters prideId={user?.pride_id} />
